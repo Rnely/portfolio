@@ -12,7 +12,7 @@ const Contact = () => {
       <input
         type="hidden"
         name="_next"
-        value="https://portfolio-rnely.vercel.app/success"
+        value="https://portfolio-rnely.vercel.app"
       />
       <div className="container">
         <div className="card">
