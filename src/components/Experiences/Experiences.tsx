@@ -1,4 +1,4 @@
-import './expiriences.css';
+import './experiences.css';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import JobExp from './JobExp';
