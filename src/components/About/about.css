@@ -1,0 +1,32 @@
+.about {
+  margin: 0 auto;
+  padding: 20px 20px;
+  max-width: 1366px;
+}
+.about h1,
+h2,
+p {
+  color: #f7d5b1;
+}
+
+.about h1 {
+  text-align: center;
+}
+
+.info {
+  display: flex;
+}
+
+.aboutMe {
+  max-width: 700px;
+  flex-direction: column;
+}
+
+.current {
+  max-width: 300px;
+  flex-direction: column;
+}
+
+.ehh {
+  flex: auto;
+}
