@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <form
       className="contact"
-      action="https://formsubmit.co/rsinkjavics@gmail.com"
+      action="https://formsubmit.co/4eae59c256a34407dc3e0601b1ef1388"
       method="POST"
     >
       <div className="container">
