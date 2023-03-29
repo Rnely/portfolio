@@ -2,7 +2,11 @@ import './contact.css';
 
 const Contact = () => {
   return (
-    <form className="contact">
+    <form
+      className="contact"
+      action="https://formsubmit.co/4eae59c256a34407dc3e0601b1ef1388"
+      method="POST"
+    >
       <div className="container">
         <div className="card">
           <a className="singup">Contact Me</a>
@@ -22,7 +26,9 @@ const Contact = () => {
             <span>Message</span>
           </div>
 
-          <button className="enter">Enter</button>
+          <button type="submit" className="enter">
+            Enter
+          </button>
         </div>
       </div>
     </form>
