@@ -9,6 +9,11 @@ const Contact = () => {
     >
       <input className="hon" type="text" name="_honey" />
       <input type="hidden" name="_captcha" value="false" />
+      <input
+        type="hidden"
+        name="_next"
+        value="https://portfolio-rnely.vercel.app/success"
+      />
       <div className="container">
         <div className="card">
           <a className="cont">Contact Me</a>
