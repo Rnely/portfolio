@@ -11,7 +11,7 @@ const Home = () => {
       </div>
       <div className="picture">
         <aside>
-          <img className="pic" src="/assets/mypicture.png" alt="me" />
+          <img className="pic" src="https://ibb.co/NyqCjmY" alt="me" />
         </aside>
       </div>
     </div>

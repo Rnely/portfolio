@@ -3,8 +3,9 @@ const Projects = () => {
     <div className="projects">
       <div className="proj">
         <img
-          src="../src/components/Expiriences/cookbookapp.png"
-          alt="CookBook App"
+          className="pic"
+          src="https://i.ibb.co/cr93FCT/cookbookapp.png"
+          alt="cookbookapp"
           width="450px"
           height="230px"
         />
