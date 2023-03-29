@@ -116,8 +116,8 @@
   z-index: 2;
 }
 .proj img:hover {
-  margin: 100px auto;
-  transform: scale(1.7);
+  margin: 60px auto;
+  transform: scale(1.4);
 }
 .proj p {
   max-width: 500px;

@@ -30,7 +30,7 @@ const Projects = () => {
       <div className="ehhh"></div>
       <div className="proj">
         <img
-          src="../src/components/Expiriences/todoapp.png"
+          src="https://i.ibb.co/K0JYg9g/todoapp.png"
           alt="Todo App"
           width="310px"
           height="230px"
