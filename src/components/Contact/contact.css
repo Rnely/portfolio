@@ -4,7 +4,11 @@
   justify-content: center;
 }
 
-.singup {
+.hon {
+  display: none;
+}
+
+.cont {
   color: #f7d5b1;
   text-transform: uppercase;
   letter-spacing: 2px;

@@ -7,22 +7,24 @@ const Contact = () => {
       action="https://formsubmit.co/4eae59c256a34407dc3e0601b1ef1388"
       method="POST"
     >
+      <input className="hon" type="text" name="_honey" />
+      <input type="hidden" name="_captcha" value="false" />
       <div className="container">
         <div className="card">
-          <a className="singup">Contact Me</a>
+          <a className="cont">Contact Me</a>
 
           <div className="inputBox1">
-            <input type="text" required />
-            <span className="user">Email</span>
+            <input type="email" required name="Email" />
+            <span className="user">E-mail</span>
           </div>
 
           <div className="inputBox">
-            <input type="text" required />
+            <input type="text" required name="Name" />
             <span>Name</span>
           </div>
 
           <div className="inputBox">
-            <textarea required />
+            <textarea required name="Message" />
             <span>Message</span>
           </div>
 
