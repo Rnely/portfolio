@@ -1,4 +1,5 @@
 import './home.css';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -6,17 +7,11 @@ const Home = () => {
       <div className="text">
         <article>
           <h2>Hi, I'm Ricards</h2>
-          <p>I'm learning as a programmer for 4 years. </p>
+          <p>I'm a student learning programming for the past 4 years.</p>
+          <p>
+            To get to know me better go to <Link to="/about">About</Link>
+          </p>
         </article>
-      </div>
-      <div className="picture">
-        <aside>
-          <img
-            className="pic"
-            src="https://i.ibb.co/99fP98G/mypicture.png"
-            alt="me"
-          />
-        </aside>
       </div>
     </div>
   );
