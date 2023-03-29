@@ -12,8 +12,8 @@ const About = () => {
             programming. I've been learning it for 4 years. My strongest side
             would be web development (React, JavaScript, Typescript, HTML, CSS)
             but I have also dabbled in other languages in these years like
-            Python, C++, C# and Java. Aside from programming I've also dabbled
-            in Photoshop, Canva, Microsoft Office, SQLite, few years ago I've
+            Python, C++, C# and Java. Aside from programming I've also played
+            with Photoshop, Canva, Microsoft Office, SQLite, few years ago I've
             also played around with video editing using Sony Vegas.
           </p>
         </div>

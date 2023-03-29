@@ -28,15 +28,23 @@ const Experiences = () => {
   return (
     <div className="exp">
       <div>
-        <h2>
-          You can view all of my projects on my Github profile{' '}
-          <Link to="https://github.com/Rnely">Rnely</Link>
-        </h2>
         <div className="but">
           <button onClick={() => handleJobClicks()}>{but}</button>
         </div>
       </div>
-      <div>{display ? <Projects /> : <JobExp />}</div>
+      <div>
+        {display ? (
+          <div>
+            <h2>
+              You can view all of my projects on my Github profile{' '}
+              <Link to="https://github.com/Rnely">Rnely</Link>
+            </h2>
+            <Projects />
+          </div>
+        ) : (
+          <JobExp />
+        )}
+      </div>
     </div>
   );
 };
