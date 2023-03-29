@@ -1,0 +1,14 @@
+.home {
+  display: flex;
+  place-content: center;
+  margin-top: 100px;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+}
+
+.picture aside {
+  float: right;
+}
