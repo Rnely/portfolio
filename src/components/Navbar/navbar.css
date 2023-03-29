@@ -2,6 +2,7 @@
   background-color: #2c3950;
   display: flex;
   align-items: center;
+  border-bottom: 1px solid black;
 }
 .navbar h2 {
   font-size: 30px;
