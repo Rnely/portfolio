@@ -157,3 +157,21 @@ textarea:focus,
 .socials a:hover {
   background-position: 100% 100%;
 }
+
+/* Mobile view */
+.mobile-contact {
+  display: flex;
+  place-content: center;
+  flex-direction: column;
+  margin: 10px auto;
+}
+
+.mobile-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 350px;
+  flex-direction: column;
+  gap: 35px;
+  background: #2c3950;
+}

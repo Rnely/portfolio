@@ -3,10 +3,8 @@ import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import JobExp from './JobExp';
 import Projects from './Projects';
-import { useMediaQuery } from 'react-responsive';
 
 const Experiences = () => {
-  const isMobile = useMediaQuery({ query: `(max-width: 760px)` });
   const [display, setDisplay] = useState('');
   const [but, setBut] = useState('Projects');
 
