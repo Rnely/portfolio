@@ -10,7 +10,7 @@ const Home = () => {
       <div className="text">
         <article>
           <h2>Hi, I'm Ricards</h2>
-          <p>I'm a student learning programming for the past 4 years.</p>
+          <p>I'm a 4th year programming student in high school from Latvia.</p>
           <p>
             To get to know me better go to <Link to="/about">About</Link>
           </p>

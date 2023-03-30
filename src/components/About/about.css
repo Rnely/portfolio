@@ -30,3 +30,30 @@ p {
 .ehh {
   flex: auto;
 }
+
+.mobile-about {
+  display: flex;
+  place-content: center;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.mobile-about h1,
+h2,
+p {
+  color: #f7d5b1;
+}
+.mobile-about h1 {
+  text-align: center;
+}
+.mobile-about a {
+  color: #f7d5b1;
+  text-decoration: none;
+  padding: 6px;
+}
+.mobile-about a:hover {
+  color: #f1356d;
+}
+.mobile-about .info {
+  flex-direction: column;
+  padding: 0 10px;
+}

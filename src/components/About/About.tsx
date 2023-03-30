@@ -1,8 +1,11 @@
 import './about.css';
+import { useMediaQuery } from 'react-responsive';
 
 const About = () => {
+  const isMobile = useMediaQuery({ query: `(max-width: 760px)` });
+
   return (
-    <div className="about">
+    <div className={isMobile ? 'mobile-about' : 'about'}>
       <h1>About me</h1>
       <div className="info">
         <div className="aboutMe">
@@ -12,9 +15,9 @@ const About = () => {
             programming. I've been learning it for 4 years. My strongest side
             would be web development (React, JavaScript, Typescript, HTML, CSS)
             but I have also dabbled in other languages in these years like
-            Python, C++, C# and Java. Aside from programming I've also played
-            with Photoshop, Canva, Microsoft Office, SQLite, few years ago I've
-            also played around with video editing using Sony Vegas.
+            Python, C++, C# and Java. Aside from programming I've also tried my
+            hand with Photoshop, Canva, Microsoft Office, SQLite, as well as a
+            few years ago I've also done some video editing using Sony Vegas.
           </p>
         </div>
         <div className="ehh"></div>
@@ -26,9 +29,8 @@ const About = () => {
           </p>
           <h2>My goal</h2>
           <p>
-            I would like to try to go deeper in different coding languages and
-            see which one I enjoy the most, since I've done a small amount of
-            projects until now.
+            My goal is to expand my knowledge and improve my ability to work
+            with different coding languages and see which one I enjoy the most.
           </p>
         </aside>
       </div>

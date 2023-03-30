@@ -25,6 +25,9 @@
   place-content: center;
   margin-top: 70px;
 }
+.mobile .text {
+  padding: 0 10px;
+}
 .mobile a {
   color: #f7d5b1;
   text-decoration: none;
