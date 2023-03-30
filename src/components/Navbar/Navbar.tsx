@@ -42,12 +42,21 @@ const Navbar = () => {
         {isMobile ? (
           <>
             <div className="navMenu" onClick={() => handleMenuClick()}>
-              <img
-                src="https://cdn-user-icons.flaticon.com/97988/97988708/1680161656394.svg?token=exp=1680162562~hmac=a1f9fa79faf8878d679befd6169a6087"
-                alt="menu"
-                width="20px"
-                height="20px"
-              />
+              {menu ? (
+                <img
+                  src="https://i.ibb.co/mCfR3J2/close.png"
+                  alt="menu"
+                  width="15px"
+                  height="15px"
+                />
+              ) : (
+                <img
+                  src="https://i.ibb.co/x3zsbGc/menu.png"
+                  alt="menu"
+                  width="20px"
+                  height="20px"
+                />
+              )}
             </div>
           </>
         ) : (
