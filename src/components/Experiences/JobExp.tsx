@@ -1,6 +1,10 @@
+import { useMediaQuery } from 'react-responsive';
+
 const JobExp = () => {
+  const isMobile = useMediaQuery({ query: `(max-width: 760px)` });
+
   return (
-    <div className="jobs">
+    <div className={isMobile ? 'mobile-jobs' : 'jobs'}>
       <div className="job">
         <div className="date">
           <p>01/07/2021 – 31/08/2021</p>

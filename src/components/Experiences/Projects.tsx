@@ -1,13 +1,17 @@
+import { useMediaQuery } from 'react-responsive';
+
 const Projects = () => {
+  const isMobile = useMediaQuery({ query: `(max-width: 760px)` });
+
   return (
-    <div className="projects">
+    <div className={isMobile ? 'mobile-projects' : 'projects'}>
       <div className="proj">
         <img
           className="pic"
           src="https://i.ibb.co/cr93FCT/cookbookapp.png"
           alt="cookbookapp"
-          width="450px"
-          height="230px"
+          width={isMobile ? '310px' : '450px'}
+          height={isMobile ? '180px' : '230px'}
         />
         <h3>CookBook Project</h3>
         <p>

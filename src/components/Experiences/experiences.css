@@ -62,7 +62,7 @@
 
 /* JobExp style */
 .job {
-  margin: 0 20px;
+  margin: 5px 20px;
   max-width: 330px;
   background-color: #2c3950;
   border-radius: 1rem;
@@ -100,6 +100,7 @@
   transition: all 0.4s ease-in;
   box-shadow: 0.4rem 0.4rem 0.6rem #00000040;
   padding: 10px 10px;
+  margin: 5px 20px;
 }
 .proj:hover {
   transform: translateY(-1.5rem);
@@ -123,4 +124,28 @@
 }
 .ehhh {
   flex: auto;
+}
+
+/*mobile */
+.mobile-jobs {
+  display: flex;
+  place-content: center;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.mobile-projects {
+  display: flex;
+  place-content: center;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.mobile-projects .proj img {
+  margin: 10px auto;
+  transition: all 0.3s ease-in-out;
+  z-index: 2;
+}
+.mobile-projects .proj img:hover {
+  margin: 20px auto;
+  transform: scale(1.2);
 }
