@@ -35,7 +35,7 @@ const Navbar = () => {
           </div>
         ) : (
           <div className="name">
-            <h2>Ricards</h2>
+            <h2>Ricards Sinkjavics</h2>
           </div>
         )}
         <div className="ehh"></div>
