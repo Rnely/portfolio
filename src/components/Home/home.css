@@ -1,3 +1,4 @@
+/* Base styling */
 .home {
   display: flex;
   place-content: center;
@@ -9,19 +10,26 @@
   align-items: center;
 }
 
-.picture aside {
-  float: right;
-}
-
-.home .pic {
-  float: right;
-}
-
 .home a {
   color: #f7d5b1;
   text-decoration: none;
   padding: 6px;
 }
 .home a:hover {
+  color: #f1356d;
+}
+
+/* Mobile view styling */
+.mobile {
+  display: flex;
+  place-content: center;
+  margin-top: 70px;
+}
+.mobile a {
+  color: #f7d5b1;
+  text-decoration: none;
+  padding: 6px;
+}
+.mobile a:hover {
   color: #f1356d;
 }
