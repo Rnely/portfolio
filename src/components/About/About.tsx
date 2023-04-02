@@ -19,6 +19,28 @@ const About = () => {
             hand with Photoshop, Canva, Microsoft Office, SQLite, as well as a
             few years ago I've also done some video editing using Sony Vegas.
           </p>
+          {isMobile ? (
+            ''
+          ) : (
+            <section className="icons">
+              <img src="https://i.ibb.co/7RYmyXC/css-3.png" alt="css-3" />
+              <img src="https://i.ibb.co/N6b9Tf3/database.png" alt="database" />
+              <img src="https://i.ibb.co/h8VgHL1/html.png" alt="html" />
+              <img src="https://i.ibb.co/J3Bx1YM/java.png" alt="java" />
+              <img src="https://i.ibb.co/rmRK831/js.png" alt="js" />
+              <img src="https://i.ibb.co/DbWrbXj/office.png" alt="office" />
+              <img src="https://i.ibb.co/c6Fr8Wz/react.png" alt="react" />
+              <img
+                src="https://i.ibb.co/m4TNmqw/photoshop.png"
+                alt="photoshop"
+              />
+              <img src="https://i.ibb.co/cJYGrXs/python.png" alt="python" />
+              <img
+                src="https://i.ibb.co/27fVfdb/typescript.png"
+                alt="typescript"
+              />
+            </section>
+          )}
         </div>
         <div className="ehh"></div>
         <aside className="current">
@@ -34,6 +56,22 @@ const About = () => {
           </p>
         </aside>
       </div>
+      {isMobile ? (
+        <section className="icons">
+          <img src="https://i.ibb.co/7RYmyXC/css-3.png" alt="css-3" />
+          <img src="https://i.ibb.co/N6b9Tf3/database.png" alt="database" />
+          <img src="https://i.ibb.co/h8VgHL1/html.png" alt="html" />
+          <img src="https://i.ibb.co/J3Bx1YM/java.png" alt="java" />
+          <img src="https://i.ibb.co/rmRK831/js.png" alt="js" />
+          <img src="https://i.ibb.co/DbWrbXj/office.png" alt="office" />
+          <img src="https://i.ibb.co/c6Fr8Wz/react.png" alt="react" />
+          <img src="https://i.ibb.co/m4TNmqw/photoshop.png" alt="photoshop" />
+          <img src="https://i.ibb.co/cJYGrXs/python.png" alt="python" />
+          <img src="https://i.ibb.co/27fVfdb/typescript.png" alt="typescript" />
+        </section>
+      ) : (
+        ''
+      )}
     </div>
   );
 };

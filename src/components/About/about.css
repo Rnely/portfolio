@@ -31,6 +31,21 @@ p {
   flex: auto;
 }
 
+.icons {
+}
+.icons img {
+  padding-right: 20px;
+}
+
+.mobile-about .icons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.mobile-about .icons img {
+  padding: 10px 16px;
+}
+
 .mobile-about {
   display: flex;
   place-content: center;

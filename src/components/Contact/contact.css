@@ -31,7 +31,7 @@
   flex-direction: column;
   gap: 35px;
   border-radius: 15px;
-  background: #2c3950;
+  background: #131313;
   box-shadow: 16px 16px 32px #111010, -16px -16px 32px #0a0a0a;
   border-radius: 8px;
 }
@@ -87,7 +87,7 @@ textarea:focus ~ span {
   padding: 5px 10px;
   background: #f7d5b1;
   letter-spacing: 0.2em;
-  color: #2c3950;
+  color: #131313;
   border: 2px;
 }
 
@@ -98,7 +98,7 @@ textarea:focus ~ span {
   padding: 5px 10px;
   background: #f7d5b1;
   letter-spacing: 0.2em;
-  color: #2c3950;
+  color: #131313;
   border: 2px;
 }
 
@@ -124,14 +124,14 @@ textarea:focus,
   font-size: 10px;
   letter-spacing: 2px;
   margin-bottom: 3em;
-  background: linear-gradient(#2c3950, #2c3950 50%, #f7d5b1 50%, #f7d5b1);
+  background: linear-gradient(#131313, #131313 50%, #f7d5b1 50%, #f7d5b1);
   background-size: 100% 200%;
   transition: background 0.5s;
 }
 
 .enter:hover {
   background-position: 100% 100%;
-  color: #2c3950;
+  color: #131313;
 }
 
 .contactCard {
@@ -149,7 +149,7 @@ textarea:focus,
 }
 
 .socials a {
-  background: linear-gradient(#2c3950, #2c3950 50%, #f7d5b1 50%, #f7d5b1);
+  background: linear-gradient(#131313, #131313 50%, #f7d5b1 50%, #f7d5b1);
   background-size: 100% 200%;
   transition: background 0.7s;
 }
@@ -173,5 +173,5 @@ textarea:focus,
   min-height: 350px;
   flex-direction: column;
   gap: 35px;
-  background: #2c3950;
+  background: #131313;
 }
