@@ -63,7 +63,7 @@ const Home = () => {
         <section className="social-container">
           <Link to="https://www.instagram.com/ehricards/">
             <img
-              src="https://cdn-user-icons.flaticon.com/97988/97988708/1680454556634.svg?token=exp=1680455456~hmac=6a2bf2cfed803176e330f4fa5a26714c"
+              src="https://i.ibb.co/WvYNxzL/003-instagram.png"
               alt="Insagram"
               width="30px"
               height="30px"
@@ -71,7 +71,7 @@ const Home = () => {
           </Link>
           <Link to="https://twitter.com/Ricardss7">
             <img
-              src="https://cdn-user-icons.flaticon.com/97988/97988708/1680454548133.svg?token=exp=1680455447~hmac=2adb0b0e32a01ff69b947b4ff38a2818"
+              src="https://i.ibb.co/HxzPvSv/002-twitter.png"
               alt="Twitter"
               width="30px"
               height="30px"
@@ -79,7 +79,7 @@ const Home = () => {
           </Link>
           <Link to="https://github.com/Rnely">
             <img
-              src="https://cdn-user-icons.flaticon.com/97988/97988708/1680454481972.svg?token=exp=1680455386~hmac=c7224bb425e1914c0ddf77534fba0702"
+              src="https://i.ibb.co/5nxfBYC/001-github.png"
               alt="Github"
               width="30px"
               height="30px"
