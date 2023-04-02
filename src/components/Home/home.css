@@ -1,22 +1,105 @@
 /* Base styling */
 .home {
   display: flex;
-  place-content: center;
+  align-items: center;
   margin-top: 100px;
+  flex-direction: column;
 }
 
-.text {
-  display: flex;
-  align-items: center;
+.home .text {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+}
+
+.home span {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 70px;
+  transition: all 0.3s ease-out;
+  color: #f7d5b1;
+}
+
+.home span:hover {
+  transform: scale(1.1);
+  color: aqua;
 }
 
 .home a {
-  color: #f7d5b1;
+  color: #f1356d;
   text-decoration: none;
   padding: 6px;
 }
 .home a:hover {
-  color: #f1356d;
+  color: aqua;
+}
+
+.home .img-container {
+  position: absolute;
+  top: 25%;
+  left: 70%;
+}
+
+.home .img-container2 {
+  opacity: 0;
+  position: relative;
+  top: 0;
+  right: 0;
+  transition: all 0.4s ease-in-out;
+}
+.home .img1 {
+  position: absolute;
+  left: -121px;
+  transition: all 0.4s ease-in-out;
+}
+.home .img2 {
+  position: absolute;
+  left: -295px;
+  top: 126px;
+  pointer-events: none;
+}
+.home .img3 {
+  position: absolute;
+  left: 60px;
+  top: 60px;
+  pointer-events: none;
+}
+.home .img4 {
+  position: absolute;
+  left: 35px;
+  top: 315px;
+  pointer-events: none;
+}
+
+.img1:hover {
+  transform: scale(1.1);
+}
+
+.home .img-container .img1:hover + .img-container2 {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.home .social {
+  position: absolute;
+  left: 5px;
+  top: 44%;
+  display: flex;
+  flex-direction: column;
+}
+.home .social-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #131313;
+}
+
+.home .social a {
+  transition: all 0.3s ease-in-out;
+}
+.home .social a:hover {
+  transform: scale(1.2);
 }
 
 /* Mobile view styling */
@@ -24,15 +107,65 @@
   display: flex;
   place-content: center;
   margin-top: 70px;
+  flex-direction: column;
 }
 .mobile .text {
   padding: 0 10px;
 }
 .mobile a {
-  color: #f7d5b1;
+  color: #f1356d;
   text-decoration: none;
   padding: 6px;
 }
 .mobile a:hover {
   color: #f1356d;
+}
+
+.mobile span {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 65px;
+  transition: all 0.3s ease-out;
+  color: #f7d5b1;
+}
+
+.mobile .text {
+  display: flex;
+}
+
+.mobile .img-container {
+  position: relative;
+  left: 50%;
+}
+
+.mobile .img1 {
+  position: absolute;
+  width: 155px;
+  height: 300px;
+  left: -72px;
+}
+
+.mobile .img2 {
+  position: absolute;
+  width: 89px;
+  left: -146px;
+  top: 100px;
+}
+.mobile .img3 {
+  position: absolute;
+  width: 125px;
+  left: 40px;
+  top: 30px;
+}
+.mobile .img4 {
+  position: absolute;
+  top: 200px;
+  left: 20px;
+  width: 125px;
+}
+
+.mobile .social {
+  position: relative;
+  top: 320px;
+  left: 33%;
 }
