@@ -149,13 +149,13 @@ textarea:focus,
 }
 
 .socials a {
-  background: linear-gradient(#131313, #131313 50%, #f7d5b1 50%, #f7d5b1);
-  background-size: 100% 200%;
-  transition: background 0.7s;
+  height: 70px;
+  transition: all 0.4s ease-in-out;
+  border-radius: 40px;
 }
 
 .socials a:hover {
-  background-position: 100% 100%;
+  transform: scale(1.25);
 }
 
 /* Mobile view */

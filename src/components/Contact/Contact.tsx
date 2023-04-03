@@ -66,7 +66,7 @@ const Contact = () => {
             <Link to="https://github.com/Rnely">
               <img
                 className="pic"
-                src="https://cdn-icons-png.flaticon.com/512/25/25657.png"
+                src="https://i.ibb.co/jrQwzwp/github-sign.png"
                 alt="Github"
                 width="50px"
                 height="50px"
@@ -75,7 +75,7 @@ const Contact = () => {
             <Link to="https://www.instagram.com/ehricards/">
               <img
                 className="pic"
-                src="https://cdn-icons-png.flaticon.com/512/1384/1384031.png"
+                src="https://i.ibb.co/TmXpMjh/instagram-2.png"
                 alt="Instagram"
                 width="50px"
                 height="50px"
@@ -84,8 +84,8 @@ const Contact = () => {
             <Link to="https://twitter.com/Ricardss7">
               <img
                 className="pic"
-                src="https://cdn-icons-png.flaticon.com/512/25/25347.png"
-                alt="Github"
+                src="https://i.ibb.co/jhFnJQJ/twitter-sign.png"
+                alt="Twitter"
                 width="50px"
                 height="50px"
               />
