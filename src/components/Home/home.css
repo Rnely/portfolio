@@ -167,5 +167,6 @@
 .mobile .social {
   position: relative;
   top: 320px;
-  left: 33%;
+  display: flex;
+  justify-content: center;
 }
